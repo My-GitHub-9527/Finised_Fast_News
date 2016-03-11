@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@android:color/holo_red_dark"
+    >
+    <android.support.design.widget.TabLayout
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="5dp"
+        app:tabPaddingBottom="0dp"
+        app:tabMinWidth="70dp"
+        android:id="@+id/tab2_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorColor="#fff"
+        app:tabSelectedTextColor="#A9A9A9"
+        app:tabTextColor="#fff"
+        app:tabMode="scrollable"
+        app:tabGravity="center"
+        style="@style/MyCustomTabLayout"
+        >
+
+    </android.support.design.widget.TabLayout>
+</LinearLayout>
+    <com.news.fast_news_app.view.Dispatch_ViewPager
+
+        android:id="@+id/indicator_viewpager_tab2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.news.fast_news_app.view.Dispatch_ViewPager>
+</LinearLayout>

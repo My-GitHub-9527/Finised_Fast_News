@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">仿网易新闻</string>
+    <string name="title_activity_news__detail__pager__style1">News_Detail_Pager_Style1</string>
+</resources>

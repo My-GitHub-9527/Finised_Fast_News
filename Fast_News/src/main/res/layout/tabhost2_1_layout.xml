@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f3f5">
+
+
+    <!--
+    推荐阅读下的listview
+    -->
+
+    <ListView
+        android:layout_margin="12dp"
+        android:cacheColorHint="#d7d7d7"
+        android:dividerHeight="15dp"
+        android:scrollbars="none"
+        android:divider="#f2f3f5"
+        android:id="@+id/recmend_read"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+</RelativeLayout>

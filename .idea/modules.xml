@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fast_News/Fast_News.iml" filepath="$PROJECT_DIR$/Fast_News/Fast_News.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fast_News_App.iml" filepath="$PROJECT_DIR$/Fast_News_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPager_Orientation_Library/ViewPager_Orientation_Library.iml" filepath="$PROJECT_DIR$/ViewPager_Orientation_Library/ViewPager_Orientation_Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loadingballs/loadingballs.iml" filepath="$PROJECT_DIR$/loadingballs/loadingballs.iml" />
+    </modules>
+  </component>
+</project>

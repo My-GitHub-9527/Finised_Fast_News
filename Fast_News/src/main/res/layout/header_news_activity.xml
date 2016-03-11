@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark">
+
+    <ImageButton
+        android:id="@+id/share"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/menu"
+        android:onClick="share"
+        android:background="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="15dp"/>
+
+    <com.news.fast_news_app.view.Dispatch_ViewPager
+        android:id="@+id/header_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/share">
+
+    </com.news.fast_news_app.view.Dispatch_ViewPager>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#a000"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新浪网新闻中心是新浪网最重要的频道之一,24小时滚动报道国内、国际及社会新闻。每日编发新闻数以万计。"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="48dp" />
+</RelativeLayout>
+
+</RelativeLayout>

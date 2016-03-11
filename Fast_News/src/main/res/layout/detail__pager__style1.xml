@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:lib="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#fff">
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#D3D3D3"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/news_detail">
+
+        </WebView>
+        <!--<ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:indeterminateDrawable="@drawable/custom_progress"
+            android:background="@mipmap/pull_process_in"
+            android:layout_gravity="center"/>-->
+
+        <com.github.glomadrian.loadingballs.BallView
+            android:layout_margin="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            lib:balls="3"
+            lib:movement_cycle_time="1500"
+            lib:enable_size_animation="true"
+            lib:size_cycle_time="500"
+            lib:min_ball_size="5dp"
+            lib:max_ball_size="12dp"
+            lib:ball_colors="@array/colors"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/balls"
+            />
+
+    </FrameLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/write_comment" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_comment_count"
+            android:text="33136"
+            android:layout_marginLeft="37dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/write_comment"
+            android:layout_toEndOf="@+id/write_comment"
+            android:layout_marginStart="37dp" />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/video_share_icon"
+            android:id="@+id/detail_share"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="12dp"/>
+    </RelativeLayout>
+</LinearLayout>

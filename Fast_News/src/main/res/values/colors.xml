@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="normal">#A9A9A9</color>
+    <color name="selected">#CD5C5C</color>
+
+    <color name="bottom_bg">#fff</color>
+
+    <!--登录按钮的选择器颜色-->
+    <color name="btn_login_press">#a83a3a</color>
+    <color name="btn_login_normal">#f15353</color>
+    <color name="btn_login_disabled">#fff</color>
+
+
+    <color name="color_bule">#2F9BFF</color>
+    <color name="color_bule2">#40B3F0</color>
+    <color name="color_bule3">#99ddff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="backgroud_color">#DCDCDC</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/img_recom">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="7dp"
+        android:text="6"
+        android:textColor="#fff"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/skipping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="68dp"
+        android:layout_marginTop="17dp"
+        android:visibility="invisible"
+        android:text="正在跳转..."
+        android:textColor="#D3D3D3"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="18dp"
+        android:text="秒"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/btn_skip"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>

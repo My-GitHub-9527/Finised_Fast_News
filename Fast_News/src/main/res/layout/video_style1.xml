@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+    android:layout_margin="20dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/video_bg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/head_news4" />
+
+        <ImageView
+            android:id="@+id/play_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/play_icon" />
+
+        <VideoView
+            android:id="@+id/tab2_video"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="invisible"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="超萌的香港迪士尼里的垃圾桶"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="最后哭着跑走什么的真是萌翻"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/video_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/reader"
+            android:gravity="center"
+            android:text="01:22"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/play_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/play_count_icon"
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:text="1.0万" />
+
+        <TextView
+            android:id="@+id/comment_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/pencle"
+            android:gravity="center"
+            android:paddingLeft="80dp"
+            android:text="45" />
+
+        <ImageView
+            android:id="@+id/video_share"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@mipmap/video_share_icon"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="40dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>
